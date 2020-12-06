@@ -9,7 +9,6 @@ Source: http://www.eng.usf.edu/cvprg/Mammography/Database.html
 * OpenCV-Python 
 * Pandas
 * Numpy
-<br/>
 ```
 pip install -r requirements.txt
 ```
