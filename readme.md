@@ -9,13 +9,16 @@ Source: http://www.eng.usf.edu/cvprg/Mammography/Database.html
 * OpenCV-Python 
 * Pandas
 * Numpy
+<br/>
+```
+pip install -r requirements.txt
+```
 
 ## How to use
 ### 1.Build jpeg
 ```
 cd jpegdir; make
 ```
-
 ### 2.Run `convert.py`:
 ```
 python3 convert.py --input path/to/ddsm/folder --output folder/path/to/store/output --format png --correction
@@ -24,8 +27,6 @@ Argparse: <br/>
 `--correction` apply correction to avoid black images and noisy image **(recommended)**.<br/>
 `--normalization` apply opencv normalization.<br/>
 `--format` file extension (opencv supported format only).<br/>
-
-
 ### Example I/O
 Input directory (tree):
 ```
@@ -84,7 +85,6 @@ CSV:
 ```
 NAME,FEATURE,SEVERITY,X1,Y1,X2,Y2,HEIGHT,WIDTH
 ```
-
 ## Reference
 * [nicholaslocascio/ljpeg-ddsm](https://github.com/nicholaslocascio/ljpeg-ddsm)
 * [fjeg/ddsm_tools](https://github.com/fjeg/ddsm_tools)
