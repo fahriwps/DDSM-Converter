@@ -1,5 +1,5 @@
 # DDSM Converter
-### Convert DDSM LJPEG and generate CSV annotation file.
+> Convert DDSM LJPEG and generate CSV annotation file.
 
 ## DDSM (Digital Database of Screening Mammogram)
 Source: http://www.eng.usf.edu/cvprg/Mammography/Database.html
