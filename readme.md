@@ -2,7 +2,7 @@
 > Convert DDSM LJPEG and generate CSV annotation file.
 
 ## DDSM (Digital Database of Screening Mammogram)
-Source: http://www.eng.usf.edu/cvprg/Mammography/Database.html
+> Source: http://www.eng.usf.edu/cvprg/Mammography/Database.html
 
 ## Dependencies
 * Python 3+
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 cd jpegdir; make
 ```
-### 2.Run `convert.py`:
+### 2.Run convert.py:
 ```
 python3 convert.py --input path/to/ddsm/folder --output folder/path/to/store/output --format png --correction
 ```
