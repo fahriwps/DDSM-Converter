@@ -69,7 +69,7 @@ def main(opt):
                 if opt.correction:
                     cmd = './ljpeg.py "{0}" "{1}" --ics {2} --correction'.format(ljpeg_path,output_filepath,ics_path)        
                 elif opt.normalize:
-                    cmd = './ljpeg.py "{0}" "{1}" --ics {2} --visual'.format(ljpeg_path,output_filepath,ics_path)        
+                    cmd = './ljpeg.py "{0}" "{1}" --ics {2} --normalize'.format(ljpeg_path,output_filepath,ics_path)        
                 os.system(cmd)
     #save df
     benigns_csv = os.path.join(output,"benigns.csv")
